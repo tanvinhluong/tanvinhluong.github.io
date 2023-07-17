@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>PORTFOLIO</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon fa-gem"></span>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>LUONG TAN VINH</h1>
+								<p>Until I die I will still follow my dream.</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+						<article id="intro">
+							<h2 class="major">Intro</h2>
+							<span class="image main"> <blockquote>On the way to success, there is no trace of lazy men.<br/><br/>
+								Anonymous </blockquote> </span>
+							<p>Welcome to my portfolio about a friendly boy in CAP - PTITHCM </p>
+							<p>I am on the road to chase many special things in a whole new world about programming. Everyday I try my best to become one of the most people in the programming world.</p>
+							<p>	Thank you for being here. Peace out 🤗</p>
+						</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Work</h2>
+								<span class="image main"><img src="images/code1.jpg" alt="" /></span>
+								<p>I am a newbie in programming so that my experience is still limited.I have just completed some small <a href="https://github.com/tanvinhluong?tab=repositories"> <b>projects</b></a> but in a demo version.</p>
+								<p>I hope I could build up some useful apps in the future and make life better.</p>
+								<p><strong>Make today great!</strong></p>
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/code2.jpg" alt="" /></span>
+								<p>My name is <b>Luong Tan Vinh</b>.I am <b id="myAge"></b> years old & living in  Vietnam - one of the most beautiful country in the world. I have been working to become a Java fresher developer & do <a href="#work">awesome works</a>.</p>
+								<p>Nice to meet you</p>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.facebook.com/banhmibolui/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/ltanvinhlatoi/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/tanvinhluong" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						
+							</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; ALL RIGHT RESERVED BY: <a href="https://github.com/tanvinhluong">TANVINHLUONG</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				let today = new Date();
+				let currentYear = today.getFullYear();
+				let birthYear = 2002;
+				let myAge = currentYear - birthYear;
+				
+				document.getElementById("myAge").innerHTML = myAge;
+			</script>
+
+	</body>
+</html>
